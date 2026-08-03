@@ -19,7 +19,7 @@
 ## `audit_public.py`
 
 - [ ] No obvious secrets (API keys, tokens, passwords) in any tracked file.
-- [ ] No machine-local absolute paths (e.g. `C:\Users\<name>\...`) leaking into committed notes.
+- [ ] No machine-local absolute paths (a personal computer's user home directory) leaking into committed notes.
 - [ ] No private key material (`BEGIN ... PRIVATE KEY`).
 - [ ] No `.obsidian/plugins/`, `.obsidian/cache/`, or `.obsidian/workspace*.json` accidentally staged.
 

@@ -1,0 +1,16 @@
+#!/bin/sh
+# LLM Wiki pre-commit gate. Installed via scripts/install_hooks.sh
+# (git config core.hooksPath .githooks).
+
+set -e
+
+if command -v python3 >/dev/null 2>&1; then
+  PY=python3
+else
+  PY=python
+fi
+
+"$PY" scripts/wiki_tool.py build
+"$PY" scripts/wiki_tool.py lint
+"$PY" scripts/wiki_tool.py source-lint
+"$PY" scripts/audit_public.py
