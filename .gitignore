@@ -6,3 +6,4 @@
 Raw/Files/*
 !Raw/Files/.gitkeep
 Drafts/
+maintenance.log
