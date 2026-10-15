@@ -1,13 +1,13 @@
 ---
 tags:
-  - "concept"
+  - concept
 topics:
-  - "LLM Wiki"
+  - LLM Wiki
 status: seed
 created: 2026-08-03
 updated: 2026-08-03
 sources:
-  - "Raw/Sources/LLM Wiki Starter Demo Source.md"
+  - Raw/Sources/LLM Wiki Starter Demo Source.md
 source_count: 1
 aliases: []
 ---
